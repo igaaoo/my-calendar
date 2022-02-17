@@ -8,7 +8,7 @@
 <p> Link to the project </p>
 https://my-calendar-five.vercel.app
 
-<h2> Exemple: </h2>
+<h2> Example: </h2>
 
 ![image](https://user-images.githubusercontent.com/88206626/154514550-d77f5bb4-2c55-4570-be9e-01b292ec1ec3.png)
 
