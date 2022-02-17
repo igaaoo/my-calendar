@@ -3,15 +3,33 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 interface Day {
-  valor: number
+  day: number
+  month: string
 }
 
 export default function Days(props: Day) {
-  return (
-    <>
-      <div className="days">
-        <p>January</p> <h2>{props.valor}</h2>
-      </div>
-    </>
-  )
+  let dt = new Date()
+  let actualDay = dt.getDate()
+
+  if (props.day != actualDay) {
+    return (
+      <>
+        {
+          <div className="days">
+            <p>{props.month}</p> <h2>{props.day}</h2>
+          </div>
+        }
+      </>
+    )
+  } else {
+    return (
+      <>
+        {
+          <div className="actualDay">
+            <p>{props.month}</p> <h2>{props.day}</h2>
+          </div>
+        }
+      </>
+    )
+  }
 }
