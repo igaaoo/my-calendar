@@ -1,0 +1,17 @@
+.days {
+  background-image: url('https://source.unsplash.com/random/80x70');
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 70px;
+  width: 80px;
+  margin: 5px;
+  color: whitesmoke;
+  font-size: 0.66em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.days h2 {
+  color: whitesmoke;
+  font-size: 4em;
+  margin: -20px;
+}

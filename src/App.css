@@ -1,0 +1,52 @@
+body,
+html {
+  background-color: #c4c4c4;
+}
+
+.main {
+  margin: 20px auto;
+  width: 60%;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+}
+
+.headerCalendar {
+  display: flex;
+  flex-direction: row;
+}
+
+.bg-image {
+  display: flex;
+  justify-content: center;
+  filter: blur(0.5px);
+  background-image: url('https://source.unsplash.com/random/900x200');
+  height: 10vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.bg-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/opacity/see-through */
+  color: whitesmoke;
+  font-weight: bold;
+  width: 30%;
+  z-index: 2;
+  height: 10%;
+  border-radius: 10px;
+  left: 35%;
+  font-size: 1.5vw;
+}
+
+.calendar {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1%;
+  justify-content: center;
+}
