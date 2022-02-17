@@ -5,5 +5,6 @@
 <p> The header image and days image changes every time the page is refreshed! </p>
 
 
-<h3> Exemplo </h2>
+<h3> Exemplo </h3>
+
 ![image](https://user-images.githubusercontent.com/88206626/154395207-5cb87160-dd93-4d50-abdd-7d66a8e99bc7.png)
