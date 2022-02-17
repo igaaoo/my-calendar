@@ -5,7 +5,24 @@ import React from 'react'
 import { useState } from 'react'
 
 export default function App() {
-  const days = 31
+  let dt = new Date()
+  let year = dt.getFullYear()
+  let month = dt.getMonth()
+
+  console.log(year)
+  console.log(month + 1)
+
+  function daysInMonth(year: number, month: number) {
+    return new Date(year, month, 0).getDate()
+  }
+
+  let daysValue = daysInMonth(year, month + 1)
+
+  let daysArray = new Array()
+
+  for (let i = 1; i <= daysValue; i++) {
+    daysArray.push(i)
+  }
 
   return (
     <div className="main">
@@ -17,8 +34,8 @@ export default function App() {
       </div>
 
       <div className="calendar">
-        {[...Array(days)].map((e, i) => (
-          <Days valor={i} />
+        {daysArray.map((days, day) => (
+          <Days valor={days} />
         ))}
       </div>
     </div>

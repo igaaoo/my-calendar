@@ -10,7 +10,7 @@ export default function Days(props: Day) {
   return (
     <>
       <div className="days">
-        <p>February</p> <h2>{props.valor}</h2>
+        <p>January</p> <h2>{props.valor}</h2>
       </div>
     </>
   )
