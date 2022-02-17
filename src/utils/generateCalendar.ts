@@ -38,5 +38,7 @@ export function MonthName(month: number){
       case 12: 
       return "December"
       break
+      default: return ""
+      break
   }
 }
