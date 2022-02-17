@@ -10,6 +10,12 @@ html {
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 765px) {
+  .main {
+    width: 90%;
+  }
+}
+
 .headerCalendar {
   display: flex;
   flex-direction: row;
