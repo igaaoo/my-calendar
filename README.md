@@ -1,5 +1,5 @@
-# 📆my-calendar
- Simple study of CSS and display Flex
+# my-calendar
+ 📆 Simple study of CSS and display Flex
  
 <h2> As imagens de cabeçalho e dias do mês mudam sempre que a página é atualizada! </h2>
 <p> The header image and days image changes every time the page is refreshed! </p>
